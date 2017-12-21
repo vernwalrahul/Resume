@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.29)  1 DEC 2017 08:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.8.29)  20 DEC 2017 22:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -587,11 +587,11 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(39.74872pt, 496.32922pt, 61.42993pt)
-* v-part:(T,H,B)=(18.06749pt, 772.77686pt, 54.2025pt)
+* h-part:(L,W,R)=(39.74872pt, 539.69167pt, 18.06749pt)
+* v-part:(T,H,B)=(18.06749pt, 823.36565pt, 3.61371pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=496.32922pt
+* \textwidth=539.69167pt
 * \textheight=704.63249pt
 * \oddsidemargin=-32.52127pt
 * \evensidemargin=-32.52127pt
@@ -653,87 +653,107 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--53
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 54.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--67
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--67
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 54.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 69.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--104
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--108
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--115
+Underfull \hbox (badness 10000) in paragraph at lines 60--65
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 66.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--113
+
+ []
+
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./Resume.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 5835 strings out of 494954
- 83471 string characters out of 6181003
+ 5834 strings out of 494954
+ 83459 string characters out of 6181003
  172679 words of memory out of 5000000
- 9071 multiletter control sequences out of 15000+600000
- 12436 words of font info for 28 fonts, out of 8000000 for 9000
+ 9070 multiletter control sequences out of 15000+600000
+ 11505 words of font info for 27 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,6n,22p,199b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,6n,22p,438b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Resume.dvi (1 page, 7204 bytes).
+Output written on Resume.dvi (2 pages, 9360 bytes).
