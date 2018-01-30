@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  30 DEC 2017 12:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.29)  14 JAN 2018 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,11 +585,11 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(39.74872pt, 496.32922pt, 61.42993pt)
-* v-part:(T,H,B)=(18.06749pt, 772.77686pt, 54.2025pt)
+* v-part:(T,H,B)=(18.06749pt, 808.91187pt, 18.06749pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=496.32922pt
-* \textheight=704.63249pt
+* \textheight=776.9025pt
 * \oddsidemargin=-32.52127pt
 * \evensidemargin=-32.52127pt
 * \topmargin=-91.2025pt
@@ -708,55 +708,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--73
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--105
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--141
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--145
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--141
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 143.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 143.
  (./Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 143.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 143.
 Package rerunfilecheck Info: File `Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 143.
  ) 
 Here is how much of TeX's memory you used:
  6188 strings out of 494953
  88552 string characters out of 6180977
- 179555 words of memory out of 5000000
+ 179553 words of memory out of 5000000
  9399 multiletter control sequences out of 15000+600000
  16269 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -766,7 +771,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
 alatino/uplri8a.pfb>
-Output written on Resume.pdf (1 page, 70360 bytes).
+Output written on Resume.pdf (1 page, 70788 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
