@@ -1,0 +1,291 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Rahul}{Kumar}{ \urlstyle{same}\href{http://vernwalrahul.github.io}{vernwalrahul.github.io}\\
+\href{mailto:vernwalrahul@iitkgp.ac.in}{vernwalrahul@iitkgp.ac.in} | +91 7261823455 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{IIT Kharagpur}
+\descript{BS in Computer Science}
+\location{2016 - Till Date}
+\location{ CGPA: 9.16 / 10.0 }
+\sectionsep
+
+\subsection{DAV Kapildev}
+\location{Grad. May 2016|  Ranchi, India}
+\location{Grade : 95.4\%}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/vernwalrahul}{\bf vernwalrahul} \\
+LinkedIn://  \href{https://www.linkedin.com/in/vernwalrahul}{\bf vernwalrahul} \\
+Medium://  \href{https://medium.com/rahulvernwal}{\bf @rahulvernwal} \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+Programming and Data Structures \\
+Algorithms \\
+Software Engineering \\
+Database Management System \\
+Compilers + Operating Systems\\
+Artificial Intelligence (AI) \\
+Machine Learning \\
+Reinforcement Learning \\
+Information Retrieval \\
+Image Processing \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\location{Languages}
+\textbullet{} C \textbullet{}   C++ \textbullet{} Python \textbullet{} SQL \textbullet{} Java \\
+\textbullet{} Matlab \textbullet{} \LaTeX\ \\ 
+\location{Libraries and Tools:}
+\textbullet{} Tensorflow \textbullet{} OpenCV \textbullet{} ROS \\  \textbullet{} OMPL \textbullet{} Docker \textbullet{} Flask \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESPONSIBILITIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Responsibilities}
+\textit{Instructor / Mentor} \\
+\textbullet{} MIT-IIT Robotics Workshop \\
+\textbullet{} IEEE Robotics Winter Workshop \\
+\textbullet{} Kharagpur Winter of Code 2017 \\~\\
+\textit{Executive Head} \\ 
+\textbullet{} Code Club, IIT Kharagpur \\
+\textbullet{} Kharagpur Open Source Society \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand\refname{PUBLICATIONS}
+\nocite{*}
+\bibliographystyle{abbrv}
+\bibliography{publications}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Amazon Robotics}
+\descript{| Software Engineer - Robotics Intern }
+\location{May 2019 - July 2019 | Seattle, USA}
+\begin{tightemize}
+\item Built end to end Stack for hands free automation of box picking using UR10 (6DoF Robotic Arm).
+\item Designed perception module to identify boxes from time of flight image. 
+\item Integrated controller, motion planning and calibration modules.
+\item Deployed entire stack to AWS code pipeline.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Personal Robotics Lab}
+\descript{| University of Washington }
+\location{ Research Intern  \hfill Advisor: \href{https://goodrobot.ai/}{Prof. Siddhartha Srinivasa}}
+\location{May 2018 - July 2018 | Seattle, USA}
+Topic : Learning Sampling Methods for constrained space motion planning
+\begin{tightemize}
+\item Devised non uniform sampling strategies to bias sampling in bottleneck regions.
+\item Devised algorithms to increase robustness of the generated graph.
+\item Our algorithm outperformed state of the art method on a wide range of problems | Accepted at IRoS '19
+\end{tightemize}
+Working Areas - \textbf{Deep Learning, AutoEncoders, Constrained Space Problems}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Kharagpur Robo-Soccer Research Lab}
+\location{\\ AI Team Member \hfill Advisor : \href{http://www.facweb.iitkgp.ac.in/~jay/}{Prof. Jayanta Mukhopadhyay}}
+\location{Jan 2017 – Present | IIT Kharagpur}
+Objective : To build autonomous soccer playing robots
+\begin{tightemize}
+\item Integrated path planning and Finite State Machines (FSM) architecture for Robocup Small Size League.
+\item Designed a simulator for robots using PyQT.
+\item Worked on kalman filter to tackle noisy data from camera images.
+\end{tightemize}
+Research Areas - Multi-agent systems, motion planning, noise filters, robot soccer
+\sectionsep
+
+\runsubsection{Digital Legal Assistant}
+\descript{\\ Open Soft 2019, General Championships, IIT Kharagpur}
+\begin{tightemize}
+\item Developed the stack to search for related cases and acts for a given natural language query.
+\item Used page ranking algorithms on citation graphs to determine the ordering of results
+and cases on over 50000 supreme court cases.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2019	     & Final Round Worldwide  & Game of Drones | \textbf{NIPS'19} with \textbf{Microsoft}\\
+2019	     & Final Round National  & Smart India Hackathon\\
+2018	     & \textbf{3\textsuperscript{rd}} in National  & \textbf{IBM Blockchain Hackathon}\\
+2017     & Worldwide & RoboCup SSL | First Indian Team  \\
+2016     & \textbf{All India Rank 9\textsuperscript{th}}  & KVPY Fellowship\\
+2016     & \textbf{top 0.03\%} (AIR 266)  & JEE Advanced \\
+\end{tabular}
+\sectionsep
+
+\end{minipage} 
+
+\section{Other Projects}
+
+\runsubsection{Learning a robust walk engine for Nao robots}
+\descript{\\ Jul'19 - Apr'20 \hfill Advisor : \href{http://www.facweb.iitkgp.ac.in/~jay/}{Prof. Jayanta Mukhopadhyay}} 
+One of the major challenge in RoboCup Humanoid League is to enhance the speed and robustness of Nao walk engine. Together with my advisor,
+I worked to build a walk engine for Nao Robotcs through Reinforcement Learning. We evaluated various different algorithms like evolution strategies, PPO, DDPG, and Soft Actor Critic Method. \\
+Working Areas: \textbf{Reinforcement Learning, Evolution Strategies, Imitation Learning}.
+\sectionsep
+
+\runsubsection{Action/Event Recognition for Safety Analytics}
+\descript{\\ Dec'17 - Feb'18 \hfill Advisor : \href{https://cse.iitkgp.ac.in/~pabitra/}{Prof. Pabitra Mitra}} 
+Recognising actions in video clips by extending CNN in the time domain. The model developed to be most suited foran
+industrial setting like detecting accidents in a factory. \\
+Working Areas: \textbf{Computer Vision, ConvNets, Encoder Decoder Models}
+\sectionsep
+
+\runsubsection{Question Generation from RDF Graph via Discriminative Ranking}
+\descript{\\ Aug'18 - Nov'18 \hfill Advisor : \href{http://www.iitkgp.ac.in/department/ET/faculty/et-plaban}{Prof. Plaban Bhowmick}} 
+Developed an application to automatically generate Q/A pairs from RDF graphs. It involves identification of popular-
+entities, extraction of their relation with other entities using hop distance. Extracted tokens are then fed to tranforma-
+tions and ranking algorithm to produce a ranked list of questions. \\
+Working Areas / Libraries: Knowledge Graph, Ranking Algorithm, SPARQL
+\sectionsep
+
+\runsubsection{Medical OCR}
+\descript{\\ Jan'18 - Mar'18 } 
+Worked in a team of 6 to build an OCR for detecting of medical professionals from prescriptions. Integrated Peter
+Norvig’s spelling corrector algorithm to auto-correct misspelled words. \\
+Working Areas: Computer Vision, Character Recognition, Spelling Correction
+\sectionsep
+
+\runsubsection{RRT Simulator}
+\descript{\\ Repository: \href{https://github.com/vernwalrahul/RRTSimulator/}{RRTSimulator} } 
+Developed an interactive GUI interface to simulate a path generated by RRTs avoiding obstacles using Python and Qt.
+Added Features for low level skill testing of individual robots.
+Tools and Libraries: OMPL, PyQt, ROS.
+\sectionsep
+
+\runsubsection{Blockchain Certificates}
+\\ An application on digital certificates using blockchain technology to avoid fraud certificates and speed up the verifica-
+tion process. \\
+Won 3rd prize at National Level Hackathon.
+\sectionsep
+
+\section{Technical Blogs}
+\descript{\hfill}
+\begin{tightemize}
+\item \href{https://tutorials.botsfloor.com/creating-your-messenger-bot-4f71af99d26b}{Creating Your Messenger Bot with Python} \hfill \textbf{21k views}
+\item \href{https://becominghuman.ai/how-should-i-start-with-cnn-c62a3a89493b}{How Should I Start with CNN} \hfill 2.5k views
+\item \href{https://medium.com/@rahulvernwal/an-introduction-to-vae-c347aea57849}{An Introduction to Variational Auto-Encoder} \hfill 1.1k views
+\end{tightemize}
+\sectionsep
+
+\end{document}  \documentclass[]{article}
