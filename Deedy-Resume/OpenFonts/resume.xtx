@@ -64,7 +64,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Rahul}{Kumar}{ \urlstyle{same}
-\href{mailto:vernwalrahul@gmail.com}{vernwalrahul@gmail.com} | +49 1627074699 
+SDE 2 | \href{mailto:vernwalrahul@gmail.com}{vernwalrahul@gmail.com} | +49 1627074699 | Berlin, Germany | 2.5+ years of experience
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,12 +97,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-\location{Languages}
-\textbullet{} C \textbullet{}   C++ \textbullet{} Python \textbullet{} SQL \textbullet{} TypeScript \\
-\location{Libraries and Tools:}
-\textbullet{} Pytorch \textbullet{} OpenCV \textbullet{} ROS \\ \textbullet{} Docker \textbullet{} Flask \\
-\location{Cloud and DevOps AWS}
-\textbullet CDK, Cloudformation \textbullet Lambda, S3, Sagemaker, SNS, SQS, Kinesis
+\location{\textbf{Field}}
+Robotics, Machine Learning, Systems, Cloud and DevOps, DBMS \\
+\location{\textbf{Languages}}
+\textbullet{}   C++ \textbullet{} Python \textbullet{} SQL \textbullet{} TypeScript \\
+\location{\textbf{Libraries and Tools:}}
+\textbullet{} Docker \textbullet{} Flask \textbullet{} RDS, DynamoDB \textbullet{} Pytorch \textbullet{} OpenCV \textbullet{} ROS \\
+\location{\textbf{Platform, Cloud and DevOps AWS}}
+\textbullet Unix, Linux \textbullet CDK, Cloudformation \textbullet Lambda, S3, Sagemaker, SNS, SQS, Kinesis
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
@@ -157,38 +159,42 @@ Image Processing \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\renewcommand\refname{PUBLICATIONS}
-\nocite{*}
-\bibliographystyle{abbrv}
-\bibliography{publications}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
 
 \runsubsection{Amazon Robotics}
-\descript{| Software Engineer - II }
+\descript{| Software Development Engineer (SDE) - 2 }
 \location{Oct 2022 - Till date | Berlin, Germany}
+ Working Areas - Machine Learning, Large Scale Deployments, AWS \\ .\\
 \begin{tightemize}
-\item Designed and implemented AWS services linking ground truth retrieval and automated annotations for Damage Detection Cell live system
-\item Worked on integrating gallery storage with live inference system to retrieve items' reference images and dimensions for damage detection models
+\item Designed and implemented AWS services linking ground truth retrieval and automated annotations for production services
+\item Worked on integrating gallery storage with live inference system to retrieve items' reference images and dimensions for damage detection Models
+\item Mentored an intern on 6 months project to build Segmentation and Crop Service for live system and batch processing
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Amazon Robotics}
-\descript{| Software Engineer - I }
+\descript{| Software Development Engineer (SDE) - 1 }
 \location{Jan 2021 - Sept 2022 | Berlin, Germany}
+Working Areas - Docker, CI/CD pipeline, Operating System, AWS, Flask
 \begin{tightemize}
 \item Worked on edge services for detecting tray items Virtual Physical Mismatchs (VPMs) at Amazon FCs
 \item Alpha launched in Oct'21 processing \textbf{1 million+ items per month}. Supported in beta deployment (launched Oct'22) increasing number of cells \textbf{8 folds}
 \item Setup CI/CD pipeline, integration test infrastructure for all the edge services
-\item Integrated cross team services reducing Cell setup time by order of magnitude and making system prod ready
 \item Led deployment of \textbf{3 Manual Annotation Cells in different countries} collecting \textbf{60k+ labelled captures in 2022} for damage detection
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Wadhwani AI}
+\descript{| Software Engineer - Intern }
+\location{May 2020 - July 2020 | Mumbai, India}
+Working Areas - PCA, 3D Modelling
+\begin{tightemize}
+\item Worked on adapting anthropometry models to learn shape space for newborns.
+\item Registered 3D models for a dataset of 100 newborns
+\item Worked on iterative optimization for SMIL model on registered dataset
 \end{tightemize}
 \sectionsep
 
@@ -196,7 +202,7 @@ Image Processing \\
 \descript{| Software Engineer - Robotics Intern }
 \location{May 2019 - July 2019 | Seattle, USA}
 \begin{tightemize}
-\item Built end to end Stack for hands free automation of box picking using UR10 (6DoF Robotic Arm).
+\item Built end to end Stack for box picking using UR10 (6DoF Robotic Arm).
 \item Designed perception module to identify boxes from time of flight image. 
 \item Integrated controller, motion planning and calibration modules.
 \item Deployed entire stack to AWS code pipeline.
@@ -222,9 +228,9 @@ Working Areas - \textbf{Deep Learning, AutoEncoders, Constrained Space Problems}
 
 \section{Awards} 
 \begin{tabular}{rll}
+2022         & Top performer & RAI (Robotics and AI), \textbf{Amazon} \\
 2019	     & Final Round Worldwide  & Game of Drones | \textbf{NIPS'19} with \textbf{Microsoft}\\
 2019	     & Final Round National  & Smart India Hackathon\\
-2018	     & \textbf{3\textsuperscript{rd}} in National  & \textbf{IBM Blockchain Hackathon}\\
 2017     & Worldwide & RoboCup SSL | First Indian Team  \\
 2016     & \textbf{All India Rank 9\textsuperscript{th}}  & KVPY Fellowship\\
 2016     & \textbf{top 0.03\%} (AIR 266)  & JEE Advanced \\
